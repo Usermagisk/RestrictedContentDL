@@ -10,7 +10,7 @@ try:
 except:
     pass
 
-    if not getenv("BOT_TOKEN") or not getenv("BOT_TOKEN").count(":") == 1:
+    if not getenv("BOT_TOKEN") or not getenv("BOT_TOKEN").count("8262040943:AAEWDhKDFgXtxvafmDxwgNpzlU0CAFrdQ1g") == 1:
         print("Error: BOT_TOKEN must be in format '123456:abcdefghijklmnopqrstuvwxyz'")
         exit(1)
 
